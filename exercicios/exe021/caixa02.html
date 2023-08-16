@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px ;
+        }
+        nav{
+            background-color: rgb(81, 88, 90);
+            padding: 2px;
+            box-shadow: 2px 2px 4px 4p1 black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 20px 20px 20px;
+        }
+        article{
+            background-color: lightgrey;
+
+        }
+        article > aside {
+            background-color: rgb(73, 77, 73);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes politica tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur officiis eos iure! Accusantium ullam unde ad assumenda placeat nulla libero, aliquam rem alias quas officiis! Animi quaerat veritatis perferendis laudantium?
+                </p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+          Desenvolvido por curso em video
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
